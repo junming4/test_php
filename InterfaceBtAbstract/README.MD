@@ -8,5 +8,6 @@
         2)、接口定义函数只能是public function test();没有实体，
         抽象函数是可以 public function test(){return true;}
         可以实现具体事务，接口函数只能使用 public去描述，抽象函数可以使用
-        public、protected、private 去描述
+        public、protected、private 去描述,如果是抽象方法（abstract）就跟
+        接口一样没有实体的
       

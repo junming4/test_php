@@ -34,7 +34,6 @@ abstract class AbstractPerson
      */
     protected $sex;
 
-    private $djdj;
 
     /**
      * @return mixed
@@ -97,5 +96,8 @@ abstract class AbstractPerson
     {
         $this->server = $server;
     }
+
+
+    abstract function test();
 
 }
