@@ -98,6 +98,5 @@ abstract class AbstractPerson
     }
 
 
-    abstract function test();
-
+    abstract public function test();
 }

@@ -27,7 +27,7 @@ $where = ['age' => 21];
 
 $set = ['name' => 'x明33xx'];
 
-$res = $mongoObj->updateInfo('test',$where, $set);
+$res = $mongoObj->updateInfo('test', $where, $set);
 var_dump($res);
 
 exit;
@@ -43,5 +43,3 @@ $options = ['projection' => ['_id' => 0], //过滤不让_id 查询查询
 
 $res = $mongoObj->query('test', ['age' => ['$gt' => 1]], $options);
 var_dump($res);*/
-
-

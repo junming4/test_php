@@ -7,7 +7,7 @@
  * @license    衣联网版权所有
  */
 
-include_once ('Demo/Person.php');
+include_once('Demo/Person.php');
 
 $person = new Person();
 
@@ -29,7 +29,7 @@ var_dump($properties);
 
 
 
-foreach ($properties as $class_name){
+foreach ($properties as $class_name) {
     echo $class_name."<br/>";
 }
 

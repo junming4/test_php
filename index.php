@@ -8,23 +8,29 @@ $userInfo['pay_password'] = 2;
 
 
 
-if (($userAuditeStatus['name_audite'] != 1 && $userAuditeStatus['name_audite']!=8) || empty($userInfo['pay_password']))
-{
+if (($userAuditeStatus['name_audite'] != 1 && $userAuditeStatus['name_audite']!=8) || empty($userInfo['pay_password'])) {
     exit("哈哈");
 }
 
 echo "skskks";
 exit;
 
-class A {private $x = 1;}
+class A
+{
+    private $x = 1;
+}
 
 // Pre PHP 7 code
-$getXCB = function() {return $this->x;};
+$getXCB = function () {
+    return $this->x;
+};
 $getX = $getXCB->bindTo(new A, 'A'); // intermediate closure
 echo $getX();
 
 // PHP 7+ code
-$getX = function() {return $this->x;};
+$getX = function () {
+    return $this->x;
+};
 echo $getX->call(new A);
 
 exit;
@@ -32,7 +38,7 @@ phpinfo();
 
 
 exit();
-$gen = (function() {
+$gen = (function () {
     yield 1;
     yield 2;
 
@@ -62,7 +68,8 @@ echo $a;exit;
 exit();
 echo testtxx(1.2444);
 
-function testtxx(int $a): int {
+function testtxx(int $a): int
+{
     return $a;
 }
 

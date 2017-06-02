@@ -115,7 +115,6 @@ class MongoDbClient
         try {
             $result = $this->mongoServer->executeBulkWrite("{$this->dbName}.{$tableName}", $bulk, $writeConcern);
             return $result->getUpsertedCount(); //TODO 为什么没有作用
-
         } catch (MongoDB\Driver\Exception\Exception $exception) {
             return 0;
         }
@@ -129,9 +128,8 @@ class MongoDbClient
      * @auth xiaojunming<xiaojunming@eelly.net>
      * @since ${DATE}
      */
-    public function deleteInfo($tableName, $where = [], bool $isDeleteAll = true ):bool
+    public function deleteInfo($tableName, $where = [], bool $isDeleteAll = true):bool
     {
-
         $limit = $isDeleteAll ? 0: 1;
         $bulk = new MongoDB\Driver\BulkWrite;
         $bulk->delete($where, ['limit' => $limit]);
@@ -139,9 +137,8 @@ class MongoDbClient
         try {
             $result = $this->mongoServer->executeBulkWrite("{$this->dbName}.{$tableName}", $bulk, $writeConcern);
             return $result->getDeletedCount();
-        }catch (MongoDB\Driver\Exception\Exception $exception){
+        } catch (MongoDB\Driver\Exception\Exception $exception) {
             return false;
         }
     }
-
 }
