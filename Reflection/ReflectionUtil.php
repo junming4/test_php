@@ -24,7 +24,6 @@ class ReflectionUtil
         $from = $class->getStartLine();
         $to = $class->getEndLine();
         $len = $to - $from -1;
-
         return implode(array_slice($lines, $from, $len));
     }
 }

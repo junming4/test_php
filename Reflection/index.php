@@ -7,9 +7,16 @@
  * @license    衣联网版权所有
  */
 
+require_once ('ReflectionUtil.php');
 require_once('CdProduct.php');
+$productClass = new ReflectionClass('CdProduct');
 
-$productClass = new ReflectionClass('Exception');
+print_r(ReflectionUtil::getClassSource($productClass));
+
+exit();
+
+
+
 //Reflection::export($productClass);
 require_once('Deal.php');
 
