@@ -39,7 +39,7 @@ final class CdProduct
     /**
      * @param mixed $name
      */
-    public function setName($name)
+    public function setName($name= 'nsm')
     {
         $this->name = $name;
     }

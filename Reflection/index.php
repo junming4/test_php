@@ -9,7 +9,25 @@
 
 require_once ('ReflectionUtil.php');
 require_once('CdProduct.php');
+require_once('Deal.php');
 $productClass = new ReflectionClass('CdProduct');
+
+$methods = $productClass->getMethods();
+
+foreach ($methods as $method){
+    //echo Deal::methodData($method);
+
+    //echo ReflectionUtil::getMethodSource($method);
+    $params = $method->getParameters();
+
+    foreach ($params as $param){
+        echo ReflectionUtil::getParam($param);
+    }
+
+
+}
+
+exit;
 
 print_r(ReflectionUtil::getClassSource($productClass));
 
@@ -18,7 +36,7 @@ exit();
 
 
 //Reflection::export($productClass);
-require_once('Deal.php');
+
 
 
 echo Deal::classData($productClass);

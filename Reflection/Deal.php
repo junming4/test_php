@@ -44,4 +44,54 @@ class Deal
 
         return $details;
     }
+
+
+    /**
+     *
+     * @param ReflectionMethod $method
+     * @return string
+     * @auth xiaojunming<xiaojunming@eelly.net>
+     * @since 2017-06-04 16:29:25
+     */
+    public static function methodData(ReflectionMethod $method)
+    {
+        $details = '';
+        $name = $method->getName();
+
+        if ($method->isUserDefined()) {
+            $details .= "{$name} is user defined \n";
+        }
+        if ($method->isInternal()) {
+            $details .= "{$name} is built-in \n";
+        }
+
+        if ($method->isAbstract()) {
+            $details .= "{$name} is abstract \n";
+        }
+
+        if ($method->isPublic()) {
+            $details .= "{$name} is public \n";
+        }
+
+        if ($method->isProtected()) {
+            $details .= "{$name} is protected \n";
+        }
+        if ($method->isPrivate()) {
+            $details .= "{$name} is private \n";
+        }
+        if ($method->isStatic()) {
+            $details .= "{$name} is static \n";
+        }
+        if ($method->isFinal()) {
+            $details .= "{$name} is final \n";
+        }
+        if ($method->isConstructor()) {
+            $details .= "{$name} is the constructor \n";
+        }
+        if ($method->returnsReference()) {
+            $details .= "{$name} returns a reference (as opposed to as value)\n";
+        }
+        return $details;
+    }
+
 }
