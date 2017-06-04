@@ -1,14 +1,26 @@
 <?php
 
+$res = [
+    1.0, 0.3, 9, 0.4, 1.3
+];
 
+function parentInt($key)
+{
+    return (int)$key + 1;
+}
+array_walk($res, 'parentInt');
+print_r($res);
+exit;
+$res = array_map('parentInt', $res);
+print_r($res);
 
+exit();
 $userAuditeStatus['name_audite'] = 1;
 
 $userInfo['pay_password'] = 2;
 
 
-
-if (($userAuditeStatus['name_audite'] != 1 && $userAuditeStatus['name_audite']!=8) || empty($userInfo['pay_password'])) {
+if (($userAuditeStatus['name_audite'] != 1 && $userAuditeStatus['name_audite'] != 8) || empty($userInfo['pay_password'])) {
     exit("哈哈");
 }
 
@@ -52,7 +64,6 @@ foreach ($gen as $val) {
 echo $gen->getReturn(), PHP_EOL;
 
 
-
 exit;
 
 exit();
@@ -63,7 +74,8 @@ echo "\u{9999}";
 exit();
 $a = $a ?? 'ss';
 
-echo $a;exit;
+echo $a;
+exit;
 
 exit();
 echo testtxx(1.2444);
@@ -77,44 +89,42 @@ function testtxx(int $a): int
 exit();
 $version = '';
 $method = 'xx';
-! empty($version) && $method = $method . $version;
+!empty($version) && $method = $method . $version;
 
 exit($method);
 exit;
 $user = '';
 
 
-
-
 $start_time = microtime(true);
 
-for ($i=0;$i <= 10000; $i ++) {
+for ($i = 0; $i <= 10000; $i++) {
     if (empty($user)) {
         $user = [];
     }
 }
 $end_time = microtime(true);
 
-echo $end_time-$start_time."\r\n";
+echo $end_time - $start_time . "\r\n";
 
 
 $start_time = microtime(true);
 
-for ($i=0;$i <= 100000; $i ++) {
+for ($i = 0; $i <= 100000; $i++) {
     if (!is_array($user)) {
         $user = [];
     }
 }
 $end_time = microtime(true);
 
-echo $end_time-$start_time."\r\n";
+echo $end_time - $start_time . "\r\n";
 
 #echo $start_time;
 
 
-
 exit;
-phpinfo();exit;
+phpinfo();
+exit;
 $str = '';
 
 echo trim($str);
@@ -140,7 +150,7 @@ $user = [
 
 function addfh($val)
 {
-    return "'".$val."'";
+    return "'" . $val . "'";
 }
 
 $valuess = array_map('addfh', array_values($user));

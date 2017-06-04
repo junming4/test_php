@@ -16,6 +16,13 @@ class Product
         $this->id = $id;
     }
 
+    /**
+     * @param $id
+     * @param PDO $pdo
+     * @return null|Product
+     * @auth xiaojunming<xiaojunming@eelly.net>
+     * @since ${DATE}
+     */
     public static function getInstance($id, PDO $pdo)
     {
         $stmt = $pdo->prepare("SELECT * FROM product where id=?");
@@ -24,16 +31,12 @@ class Product
         if (empty($row)) {
             return null;
         }
-        if ($row['type'] == 'book'){
-
-        }elseif ($row['type'] == 'cd'){
-
-        }else{
-
+        if ($row['type'] == 'book') {
+        } elseif ($row['type'] == 'cd') {
+        } else {
         }
         $product = new Product();
         $product->setId($row['id']);
         return $product;
     }
-
 }
