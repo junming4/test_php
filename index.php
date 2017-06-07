@@ -1,5 +1,20 @@
 <?php
 
+$code = 200;
+$msg = '';
+if ($code == 200) {
+    $msg = 'success';
+} elseif ($code == 0) {
+    $msg = "error";
+} else {
+    $msg = "未知";
+}
+
+exit;
+$condition = ['detailType' =>1];
+$condition['detailType'] == 1 && $condition['needHour'] = $condition['totalSta'] = 1; #按小时分组;
+print_r($condition);
+exit;
 $res = [
     1.0, 0.3, 9, 0.4, 1.3
 ];

@@ -72,8 +72,6 @@ class ReflectionUtil
             $details .= "{$name} has default: {$def} \n";
         }
         return $details;
-
     }
-
 
 }
