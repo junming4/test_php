@@ -11,10 +11,12 @@ require_once('PasswordHelper.php');
 
 //解密需要传入这个值
 $input['decodePassword'] = 123456;
-//解密部分
-$input['timeStamp'] = 1496454823;
-$input['encodePassword'] = 'MDAyUGlRa0kwQndYbEFoSmpFeU16UTFOZz09MTk2OWUxNWYzOGYxYzAyNTFiNDFjZmE4YWUwMzRkYmE=';
+$input['timeStamp'] = 1503560875;
 $input['type'] = 'login';
+//解密部分
+/*$input['timeStamp'] = 1496454823;
+$input['encodePassword'] = 'MDAyUGlRa0kwQndYbEFoSmpFeU16UTFOZz09MTk2OWUxNWYzOGYxYzAyNTFiNDFjZmE4YWUwMzRkYmE=';
+$input['type'] = 'login';*/
 
 
 $psswordHelper = new PasswordHelper($input);

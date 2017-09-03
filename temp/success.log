@@ -1,0 +1,179 @@
+Request URL:https://www.eelly.com/index.php?app=datapacket&act=saveGoodProp&publish=1
+Request Method:POST
+Status Code:200 OK
+Remote Address:14.152.91.85:443
+Referrer Policy:no-referrer-when-downgrade
+Response Headers
+view source
+Age:36
+Cache-Control:no-cache, must-revalidate
+Connection:keep-alive
+Content-Encoding:gzip
+Content-Type:text/plain;charset=utf-8
+Date:Thu, 15 Jun 2017 09:39:39 GMT
+Expires:Mon, 26 Jul 1997 05:00:00 GMT
+Pragma:no-cache
+Set-Cookie:FROM_HTTPS=0; path=/; domain=.eelly.com
+Set-Cookie:ECM_ID=57a07e5d92d0ac1cb39acb9544c64cf0abfa945f; path=/; domain=.eelly.com
+Transfer-Encoding:chunked
+Vary:Accept-Encoding
+Via:https/1.1 aca-CT-GDSX-129-24 (ACA/2.0), https/1.1 aca-CT-GDSDDXSX-59-58 (ACA/2.0)
+Request Headers
+view source
+Accept:*/*
+Accept-Encoding:gzip, deflate, br
+Accept-Language:zh-CN,zh;q=0.8
+Connection:keep-alive
+Content-Length:12067
+Content-Type:application/x-www-form-urlencoded; charset=UTF-8
+Cookie:ptid=5f283da5; Vdfm_28f2_saltkey=U3aTf7yA; Vdfm_28f2_lastvisit=1496801007; satisfaction=1; LXB_REFER=mail.qq.com; FENXIAO_USER_ID=0; stid=5f37d350; Vdfm_28f2_creditnotice=0D30D10D5D0D0D0D0D0D2465583; Vdfm_28f2_creditbase=0D60D20D10D0D0D0D0D0; Vdfm_28f2_creditrule=%E6%AF%8F%E5%A4%A9%E7%99%BB%E5%BD%95; EELLYSESSID=84cc1ac4617ce2852a56913f074b01d1ee8ec7ec; Vdfm_28f2_lip=113.108.149.22%2C1497506927; _pk_ref.1.a89a=%5B%22%22%2C%22%22%2C1497519483%2C%22https%3A%2F%2Fpassport.eelly.com%2Fmember%2FloginAnonymous.html%3FappKey%3D10002%26timestamp%3D1497511662%26sign%3D1f6f2f03cfc3f3b7ee2eec9630a110c3%26data%3Dr4XaqJnWrMlbn1eUlmmbkpqSh41Wrdie1nXJltPWVG5WsNSvndDPxpWUapCTVI65z8%252FJ0KurhYe4VJNhk5JtVIuyvGtojYOmqdWhx7qZyK3P1cGQaWucZ5dqglmwqoaBgI%252BFoZ3PyIWAypjN0l2Gpc7T1M6ZlJRunGKSX5iSZG1im5ZVh8XJxqvOkZGYZ52QmZeHjVam1KfHmYRrh6isZIzKtmeGprmHtg%253D%253D%22%5D; account_login=molimoq; uid=148086; nname=%E6%8B%94%E5%88%80%E5%93%89; username=molimoq; user_black_status=0; Vdfm_28f2_sid=yEy6gn; Vdfm_28f2_lastact=1497519507%09uc.php%09; Vdfm_28f2_auth=8893lCo7qoNxe54F8Qveytilgziz3NTr0KP0HOKYHnoAd0%2FMRTfh35hCzXRXrIphohZpAm9IHidA1p7gGnw4YJL4%2BMI; uname=molimoq; per_num=20; user_goods_nums=3; Hm_lvt_0afdf8c03e547e8eef4d1ae3344b5dc6=1496970107,1497409114,1497493579,1497494140; Hm_lpvt_0afdf8c03e547e8eef4d1ae3344b5dc6=1497519573; _pk_id.1.a89a=391e7bf881de177f.1496472791.13.1497519573.1497513883.; _pk_ses.1.a89a=*; ECM_ID=57a07e5d92d0ac1cb39acb9544c64cf0abfa945f; FROM_HTTPS=0
+Host:www.eelly.com
+Origin:https://www.eelly.com
+Referer:https://www.eelly.com/index.php?app=datapacket
+User-Agent:Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36
+X-Requested-With:XMLHttpRequest
+Query String Parameters
+view source
+view URL encoded
+app:datapacket
+act:saveGoodProp
+publish:1
+Form Data
+view source
+view URL encoded
+show_cate:女装>中老年装
+main_cate:289
+e_cate_id:77927
+selected_cate:
+selected_main_cate:
+show_scate:女装2
+连衣裙 > 女装2
+scate:254171,255368
+goods_name:靓衣轩 LYX806
+goods_number:
+weight:0.4
+keywords:碎花,尺码,肩宽,氨纶,胸围
+if_show:1
+date[]:
+date[]:00
+goods_image[0]:data/files/datapacket_tmp/images/store_148086/201706151010502088.jpeg
+goods_image[1]:data/files/datapacket_tmp/images/store_148086/201706151010509551.jpeg
+goods_image[2]:data/files/datapacket_tmp/images/store_148086/201706151010502337.jpeg
+goods_image[3]:data/files/datapacket_tmp/images/store_148086/201706151010504032.jpeg
+goods_image[4]:data/files/datapacket_tmp/images/store_148086/201706151010502239.jpeg
+trade_mark:
+if_tag:0
+key-name-67:消费人群
+isrequired-67:1
+krstyle-67:0
+mgcate_attr_ids[]:9483
+mgcate_attr_ids[]:33797
+mgcate_attr_ids[]:
+mgcate_attr_ids[]:
+mgcate_attr_ids[]:
+mgcate_attr_ids[]:
+mgcate_attr_ids[]:
+mgcate_attr_ids[]:
+mgcate_attr_ids[]:
+mgcate_attr_ids[]:
+mgcate_attr_ids[]:22826
+key-name-18:风格
+isrequired-18:1
+krstyle-18:0
+key-name-49:面料/材质
+isrequired-49:0
+krstyle-49:1
+key-name-73:图案
+isrequired-73:0
+krstyle-73:1
+key-name-36:款式
+isrequired-36:0
+krstyle-36:1
+key-name-10:产品类别
+isrequired-10:0
+krstyle-10:1
+key-name-25:季节
+isrequired-25:0
+krstyle-25:0
+key-name-12:穿着方式
+isrequired-12:0
+krstyle-12:0
+key-name-2:版型
+isrequired-2:0
+krstyle-2:0
+key-name-85:袖长
+isrequired-85:0
+krstyle-85:0
+key-name-92:衣长
+isrequired-92:0
+krstyle-92:0
+key-name-34:裤长
+isrequired-34:0
+krstyle-34:0
+key-name-44:流行元素/工艺
+isrequired-44:0
+krstyle-44:0
+key-name-91:衣门襟
+isrequired-91:0
+krstyle-91:0
+addColor:
+spec_map[9490]:黑色
+spec_map[9489]:白色
+spec_map[9510]:浅灰色
+spec_map[9497]:深灰色
+spec_map[9505]:黄色
+spec_map[9507]:浅黄色
+spec_map[9508]:桔色
+spec_map[9509]:褐色
+spec_map[9503]:深卡其布色
+spec_map[9499]:巧克力色
+spec_map[9498]:粉红色
+spec_map[9500]:红色
+spec_1:9494,9504
+spec_map[9494]:酒红色
+spec_map[9493]:紫色
+spec_map[9492]:深紫色
+spec_map[9491]:紫罗兰
+spec_map[9496]:绿色
+spec_map[9487]:军绿色
+spec_map[9488]:浅绿色
+spec_map[9495]:蓝色
+spec_map[9504]:天蓝色
+spec_map[9502]:深蓝色
+spec_map[9506]:花色
+spec_map[9501]:透明
+spec_map[29887]:咖啡色
+spec_map[29888]:棕色
+spec_map[29889]:玫红色
+spec_map[29890]:杏色
+spec_map[9472]:均码
+spec_map[9478]:XXS
+spec_map[9474]:XS
+spec_map[9476]:S
+spec_map[9475]:M
+spec_map[9473]:L
+spec_2:9480,9479,9477
+spec_map[9480]:XL
+spec_map[9479]:XXL
+spec_map[29705]:3XL
+spec_map[9477]:4XL
+specQty:2
+unit:1
+sale_type:0
+batch_unit:1
+unit_conversion:
+quote_type:0
+stock:99,99,99,99,99,99
+unit_price:95,,,,,
+tmp_stock:99,99,99,99,99,99
+tmp_unit_price:95
+price[]:95
+price[]:
+price[]:
+lower_limit[]:1
+lower_limit[]:2
+lower_limit[]:5
+small_sale_quantity:
+is_permission:0
+description:<p><br /></p><p style="color:#000000"><span style="font-size:32px;color:#ff0000;font-family:simhei;">产地：杭州</span></p><p style="color:#000000"><span style="font-size:32px;color:#ff0000;font-family:simhei;"></span></p><p style="color:#000000"><span style="font-size:32px;"><span style="font-family:simhei"><span style="color:#ff0000">面料：</span></span></span><span style="font-size:xx-large;font-family:simhei;color:#ff0000;line-height:48px">冰雪丝70%氨纶30%</span></p><p style="color:#000000"><span style="font-family:simhei"><span style="color:#ff0000"><span style="font-size:32px;"></span><span style="font-size:32px;">颜色蓝碎花、红碎花</span></span></span><span style="font-family:simhei;color:#ff0000;font-size:32px;"></span></p><p><span style="font-size:xx-large;font-family:simhei;color:#ff0000;line-height:48px">尺码：XL/2XL/3XL/4XL</span></p><div id="ids-module-1380099" class="dm_module" data-id="1380099" data-title="4个尺码"><table style="height:300px;width:600px" border="1"><tbody><tr><td><span style="font-size:24px"><strong><span style="font-family:simhei">尺码</span></strong></span></td><td><span style="font-size:24px"><strong><span style="font-family:simhei">胸围</span></strong></span></td><td><span style="font-size:24px"><strong><span style="font-family:simhei">肩宽</span></strong></span></td><td><span style="font-size:24px"><strong><span style="font-family:simhei">裙长</span></strong></span></td><td><span style="font-size:24px"><strong><span style="font-family:simhei">体重</span></strong></span></td></tr><tr><td><span style="font-size:24px"><strong><span style="font-family:simhei">XL</span></strong></span></td><td><span style="font-size:24px"><strong><span style="font-family:simhei">88</span></strong></span></td><td><span style="font-size:24px"><strong><span style="font-family:simhei">36</span></strong></span></td><td><span style="font-size:24px"><strong><span style="font-family:simhei">88</span></strong></span></td><td><span style="font-size:24px"><strong><span style="font-family:simhei">95斤内</span></strong></span></td></tr><tr><td><span style="font-size:24px"><strong><span style="font-family:simhei">2XL</span></strong></span></td><td><span style="font-size:24px"><strong><span style="font-family:simhei">92</span></strong></span></td><td><span style="font-size:24px"><strong><span style="font-family:simhei">37</span></strong></span></td><td><span style="font-size:24px"><strong><span style="font-family:simhei">89</span></strong></span></td><td><span style="font-size:24px"><strong><span style="font-family:simhei">95-110</span></strong></span></td></tr><tr><td><span style="font-size:24px"><strong><span style="font-family:simhei">3XL</span></strong></span></td><td><span style="font-size:24px"><strong><span style="font-family:simhei">96</span></strong></span></td><td><span style="font-size:24px"><strong><span style="font-family:simhei">38</span></strong></span></td><td><span style="font-size:24px"><strong><span style="font-family:simhei">90</span></strong></span></td><td><span style="font-size:24px"><strong><span style="font-family:simhei">110-125</span></strong></span></td></tr><tr><td><span style="font-size:24px"><strong><span style="font-family:simhei">4XL</span></strong></span></td><td><span style="font-size:24px"><strong><span style="font-family:simhei">100</span></strong></span></td><td><span style="font-size:24px"><strong><span style="font-family:simhei">39</span></strong></span></td><td><span style="font-size:24px"><strong><span style="font-family:simhei">91</span></strong></span></td><td><span style="font-size:24px"><strong><span style="font-family:simhei">125-135</span></strong></span></td></tr></tbody></table><p><br /></p></div><p><br /></p><p><span style="font-family:simhei;color:#ff0000;font-size:32px;"><img src="http://w20.myzcm.com/2010/10/wang88301981er/806裙子/妈妈装宝贝详情_02.jpg" /><span style="font-size:16px;color:#000000;"></span></span></p><p><br /></p><p><span style="font-size:16px;color:#000000;"><img src="http://w20.myzcm.com/2010/10/wang88301981er/806裙子/妈妈装宝贝详情_03.jpg" /></span></p><p><br /></p><p><img src="http://w20.myzcm.com/2010/10/wang88301981er/806裙子/妈妈装宝贝详情_04.jpg" /></p><p><br /></p><p><img src="http://w20.myzcm.com/2010/10/wang88301981er/806裙子/妈妈装宝贝详情_05.jpg" /></p><p><br /></p><p><img src="http://w20.myzcm.com/2010/10/wang88301981er/806裙子/妈妈装宝贝详情_06.jpg" /></p><p><br /></p><p><img src="http://w20.myzcm.com/2010/10/wang88301981er/806裙子/妈妈装宝贝详情_08.jpg" /></p><p><br /></p><p><img src="http://w20.myzcm.com/2010/10/wang88301981er/806裙子/妈妈装宝贝详情_10.jpg" /></p><p><br /></p><p><img src="http://w20.myzcm.com/2010/10/wang88301981er/806裙子/妈妈装宝贝详情_11.jpg" /></p>
+tmp_id:2213436
